@@ -1,1 +1,239 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guillaume Branche</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-folder-open"> Projets
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="projets/scolaire/projetsScolaires.html">Scolaires</a></li>
+              <li><a href="projets/perso/projetsPerso.html">Personnels</a></li>
+              <li><a href="projets/pro/projetsPro.html">Professionels</a></li>
+            </ul>
+          </li>
+	      <li><a href="CV.pdf"><span class="glyphicon glyphicon-info-sign"> CV</a></li>
+        <li><a href="Musiques.html"><span class="glyphicon glyphicon-headphones"> Musiques</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Contact.html">Contact  <span class="glyphicon glyphicon-envelope"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-justify">
+    <h1 class="text-center">Portfolio</h1><br>
+    <p>Bonjour, je m'appelle <strong>Prométhée TONEATTI</strong>, je suis étudiant à <strong>Télécom SudParis</strong>, école généraliste d'ingénieur du numérique, et je suis actuellement en 3ème année dans la filière <strong>Jeux Vidéos, Interactions et Collaboration Numériques</strong>. Au cours de ma formation, j'ai été amené à me familiariser avec divers langages de programmation, et plus particulièrement le <strong>C++</strong> et le <strong>C#</strong> en cette dernière année. J'ai pu ainsi réaliser différents projets, scolaires ou non, toujours en équipe, et dans des domaines variés tels que le <strong>jeu vidéo, le développement mobile, les objets connectés ou encore un escape game</strong>.</p>
+    <p>Vous pouvez retrouver mes différents projets réalisés dans le cadre de mes études <a href="projets/scolaire/projetsScolaires.html"><strong>ici</strong></a>, mes projets professionels <a href=projets/pro/projetsPro.html><strong>là</strong></a> et mes autres projets <a href=projets/perso/projetsPerso.html><strong>céans</strong></a></p>
+    <p>Je suis aussi un peu musicien, et me plais à composer des <a href=#><strong>thèmes</strong></a> pour les jeux créés en GameJam, entre autres.</p>
+  </div>
+</div><br>
+<h1 class="text-center">Projets</h1><br>
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carousel-caption" style="outline-color:black; text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;color:white; text-align: center;">
+                <h3>Le Parapluie Bulgare</h3>
+                <p>Unijam 2020</p>
+              </div>
+              <a href="projets/perso/parapluiebulgare.html">
+                <img class="img-responsive" src="images/parapluiebulgare/logo.png" alt="">
+              </a>
+            </div>
+
+            <div class="item">
+              <div class="carousel-caption" style="outline-color:black;text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;color:white; text-align: center;">
+                <h3>Escape Game Aperture</h3>
+                <p>Escape Game réalisé avec le club de création de jeux</p>
+              </div>
+              <a href="projets/perso/escapegameaperture.html">
+                <img class="img-responsive" src="images/escapegame/logo.png" alt="">
+              </a>
+            </div>
+
+            <div class="item">
+              <div class="carousel-caption" style="text-align: center;">
+                <h3>A Robot's Dream</h3>
+                <p>Projet de jeu C++ / SFML</p>
+              </div>
+              <a href="projets/scolaire/robotsdream.html">
+                <img class="img-responsive" src="images/robotsdream/logo.png" alt="">
+              </a>
+            </div>
+
+            <div class="item">
+              <div class="carousel-caption" style="outline-color:black;text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;color:white; text-align: center;">
+                <h3>Lombricomposteur connecté</h3>
+                <p>Projet IoT Arduino</p>
+              </div>
+              <a href="projets/pro/egm.html">
+                <img class="img-responsive" src="images/egm/logo.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="item">
+              <div class="carousel-caption" style="outline-color:black; text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;color:white; text-align: center;">
+                <h3>Qui sont nos députés ?</h3>
+                <p>Projet court de développement androïd</p>
+              </div>
+              <a href="projets/scolaires/deputes.html">
+                <img class="img-responsive" src="images/deputes/logo.png" alt="">
+              </a>
+            </div>
+            
+
+              <div class="item">
+
+              <div class="carousel-caption" style="outline-color:black;text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;color:white; text-align: center;">
+                <h3>Application de visite en Réalité Virtuelle</h3>
+                <p>Cassiopée pour le Génopôle d'Evry</p>
+              </div>
+              <a href="projets/pro/cassiopee.html">
+                <img class="img-responsive" src="images/cassiopee/logo.png" alt="">
+              </a>
+            </div>
+    <div class="item">
+              <div class="carousel-caption" style="outline-color:black;text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;color:white; text-align: center;">
+                <h3>Application de gestion</h3>
+                <p>Projet professionel à RedStamp SRL</p>
+              </div>
+              <a href="projets/pro/redstamp.html">
+                <img class="img-responsive" src="images/redstamp/logo.png" alt="">
+              </a>
+            </div>
+            <div class="item">
+              <div class="carousel-caption" style="outline-color:black;text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;color:white; text-align: center;">
+                <h3>Platformer, collisions et feedbacks</h3>
+                <p>Projet court en Interactions Humain Machine</p>
+              </div>
+              <a href="projets/scolaire/platformer.html">
+                <img class="img-responsive" src="images/platformer/logo.png" alt="">
+              </a>
+            </div>
+          
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-3 text-center">    
+  <h3>Projets</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="projets/scolaire/projetsScolaires.html">
+      <p><strong>Projets scolaires</strong></p>
+      <img src="images/robotsdream/logo.png" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-4"> 
+      <a href="projets/perso/projetsPerso.html">
+      <p><strong>Projets personnels</strong></p>
+      <img src="images/escapegame/logo.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+    <div class="col-sm-4"> 
+      <a href="projets/pro/projetsPro.html">
+      <p><strong>Projets professionnels</strong></p>
+      <img src="images/redstamp/logo.png" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+  </div>
+</div><br>
+
+ <footer class="container-fluid text-center">
+    Me contacter - <a href="mailto:guillaume.branche@telecom-sudparis.eu, guillaume.branche@gmail.com">guillaume.branche@telecom-sudparis.eu</a> - <a href="tel:+33628781833">06.28.78.18.33</a>
+  </footer>
+
+</body>
+</html>
