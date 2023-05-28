@@ -91,11 +91,104 @@ Projet de fin d'étude de 6 mois en équipe de 5, réalisé sur Unity.
      <!DOCTYPE html>
 <html>
   <body>
-    <div style="text-align: center;"><object data="../../_Soutenance FINALE.pdf" type="application/pdf" width="60%" height="550px"></div>
-      <p>Unable to display PDF file. <a href="../../_Soutenance FINALE.pdf">Download</a> instead.</p>
-    </object>
+    <p class="container text-justify">Voici la présentation de notre projet : <a href="../../_Soutenance FINALE.pdf">Download</a><br>
+        Ainsi qu'un rapide commentaire de certains aspects du développement du jeu : </p><br>
+  <style>
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 50%;
+    max-height:30%;
+    float: left;
+  }
+  .auto {
+    text-justify: auto;
+  }
+  </style>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="../../images/pfe/pfe1.png">
+      </div>
+      <div class="text">
+        <p><strong> Le sentiment de liberté</strong></p>
+        <p><h4><div style="text-align:justify;">Puisque les énigmes se résolvent en manipulant les fichiers du jeu, les énigmes proposées ne pouvaient n'avoir qu'une unique méthode de résolution. 
+          Nous avons axé le design et le développement du jeu sur la liberté du joueur, afin que ses propres idées puissent réussir à résoudre les énigmes. 
+        C'est le cas par exemple de ce mur, qu'il faut réussir à passer. <br> Pour cela, le joueur peut créer un teleporter.txt, en prenant  exemple sur 
+      le téléporteur déjà présent dans la pièce et dans les fichiers. Ou alors, il peut aussi déplacer son propre personnage en changeant les valeurs
+    de position dans le player.txt. </div> </h4></p>
+      </div>
+    </div>
+    <br>   <br>  <br>  <br>
+    <div class="container">
+      <div class="image">
+        <img src="../../images/pfe/pfe2.png">
+      </div>
+      <div class="text">
+        <p><strong> Comment lire les fichiers modifiés par le joueur ? </strong></p>
+        <p><h4><div style="text-align:justify;">Pour pouvoir lire les fichiers édités par le joueur, nous avons utilisé le FileSystemWatcher fourni par 
+          Microsoft, qui crée des évènement à chaque changement effectués dans les dossiers que l'on souhaite surveiller. Nous récuperons ces évènement, 
+          que nous utilisons pour répercuter les changements dans le jeu. <br> Certains évènements ont besoin de plus de traitement, par exemple, la modification d'un 
+          nom de fichier correspond aux évènements de la suppression du fichier et de sa création avec son nouveau nom.
+          Chaque fichier possède un lien vers un objet que l'on modifie selon les modifications du joueur effectuées dans le fichier. 
+        </div> </h4></p>
+      </div>
+    </div>
+    <br>   <br>  <br>  <br>
+    <div class="container">
+      <div class="image">
+        <img src="../../images/pfe/pfe3.png">
+      </div>
+      <div class="text">
+        <p><strong> en cours</strong></p>
+        <p><h4><div style="text-align:justify;">en cours
+        </div> </h4></p>
+      </div>
+    </div>
+    <br>   <br>  <br>  <br>
+    <div class="container">
+      <div class="image">
+        <img src="../../images/pfe/pfe4.png">
+      </div>
+      <div class="text">
+        <p><strong>en cours</strong></p>
+        <p><h4><div style="text-align:justify;">en cours
+        </div> </h4></p>
+      </div>
+    </div>
+    <br>   <br>  <br>  <br>
+    <div class="container">
+      <div class="image">
+        <img src="../../images/pfe/pfe5.png">
+      </div>
+      <div class="text">
+        <p><strong>en cours </strong></p>
+        <p><h4><div style="text-align:justify;">en cours
+        </div> </h4></p>
+      </div>
+    </div>
+    <br>   <br>  <br>  <br>
+    <div class="container">
+      <div class="image">
+        <img src="../../images/pfe/pfe6.png">
+      </div>
+      <div class="text">
+        <p><strong> en cours</strong></p>
+        <p><h4><div style="text-align:justify;">en cours
+        </div> </h4></p>
+      </div>
+    </div>
   </body>
+
+
 </html>
+ 
+
+
+<br><br><br>
 
      <div type="button" class="text-center">
        
