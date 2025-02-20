@@ -63,6 +63,146 @@ body {
   background-color: #fff;
 }
 
+.header {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; 
+  width: 100%; 
+  max-width: 1200px;
+  aspect-ratio: 12 / 5; 
+  background-color: #f0f0f0; 
+  border-radius: 20px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.header-image {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.project-caracteristic {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 100%;
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 20px 0; 
+  border-top: 2px solid rgba(148, 148, 148, 0.384); 
+}
+
+.project-description {
+  width: 65%; 
+  text-align: justify; 
+  line-height: 1.6; 
+}
+
+.project-intro {
+  padding: 0px 10px;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.intro-details {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+}
+
+.detail-title {
+  font-size: 14px; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666; 
+  margin-bottom: 8px; 
+}
+
+.detail-value {
+  font-size: 16px; 
+  font-weight: normal;
+  color: #222; 
+}
+
+@media (max-width: 768px) {
+  .intro-details {
+    grid-template-columns: 1fr; 
+  }
+
+  .detail-item {
+    align-items: flex-start; 
+    text-align: left;
+  }
+}
+
+.blog-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px; 
+}
+
+.blog-post {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  max-width: 400px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.post-content {
+  flex: 1; 
+}
+
+.post-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.post-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* alternance img/text */
+.blog-post.reverse {
+  flex-direction: row-reverse; 
+}
+
+
+@media (max-width: 768px) {
+  .blog-post {
+    flex-direction: column;
+    text-align: center; 
+  }
+
+  .blog-post.reverse {
+    flex-direction: column; 
+  }
+
+  .post-image img {
+    max-width: 100%;
+  }
+}
+
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -541,8 +681,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
