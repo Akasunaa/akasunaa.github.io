@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
 
-  <title>Promethee's Portfolio</title>
+  <title>Promethee TONEATTI</title>
 </head>
 
 <body class="theme-red">
@@ -36,16 +36,16 @@
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="#home" class="nav-link" data-animate="scrolling">no way home</a>
+              <a href="#home" class="nav-link" data-animate="scrolling"><span data-lang="Home"></span></a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link" data-animate="scrolling">About</a>
+              <a href="#about" class="nav-link" data-animate="scrolling"><span data-lang="A_Propos"></span></a>
             </li>
             <li class="nav-item">
-              <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
+              <a href="#portfolio" class="nav-link" data-animate="scrolling"><span data-lang="Portfolio"></span></a>
             </li>
             <li class="nav-item">
-              <a href="#other" class="nav-link" data-animate="scrolling">Other Works</a>
+              <a href="#other" class="nav-link" data-animate="scrolling"><span data-lang="Autres_Travaux"></span></a>
             </li>
           </ul>
           <ul class="nav ml-auto">
@@ -60,17 +60,18 @@
     <!-- End Navbar -->
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
-      <h5 class="fw-normal">Welcome</h5>
-      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Stephen</b> Doe</h1>
-      <div class="badge">UI/UX & Web Designer</div>
+      <h5 class="fw-normal">Bienvenue</h5>
+      <h1 class="fw-light mb-4">Je suis<b class="fg-theme"> Prométhée</b> Toneatti</h1>
+      <div class="badge">Game Dev</div>
     </div> 
     <!-- End Caption header -->
   </div>
   
+  <!-- About -->
   <div class="vg-page page-about" id="about">
     <div class="container py-5">
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">About</div>
+        <div class="badge badge-subhead"><span data-lang="A_Propos"></span></div>
       </div>
       <div class="row">
         <div class="col-lg-4 py-3">
@@ -79,134 +80,167 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-          <h1 class="fw-light">electrissien</h1>
-          <h5 class="fg-theme mb-3">UI/UX & Web larry</h5>
+          <h1 class="fw-light">Prométhée Toneatti</h1>
+          <h5 class="fg-theme mb-3">Développeur de jeux</h5>
           <p data-lang="description"></p>
           <h1 data-lang="title"></h1>
           <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form but the majority have suffered alteration in some</p>
           <ul class="theme-list">
-            <li><b>From:</b> Texas, US</li>
-            <li><b>Lives In:</b> Texas, US</li>
-            <li><b>Age:</b> 25</li>
-            <li><b>Gender:</b> no</li>
+            <li><b>Lives In:</b> Montpellier</li>
+            <li><b>Age:</b> 24</li>
           </ul>
-          <button class="btn btn-theme-outline">Download CV</button>
+          <a href="../pdf/CV_TONEATTI.pdf" target="_blank">
+            <button class="btn btn-theme-outline">Télécharger mon CV</button>
+          </a>
         </div>
       </div>
     </div>
+    <!-- skills -->
     <div class="container py-5">
-      <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
+      <h1 class="text-center fw-normal wow fadeIn">Mes Compétences</h1>
       <div class="row py-3">
         <div class="col-md-6">
           <div class="px-lg-3">
-            <h4 class="wow fadeInUp">Coding skills</h4>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">JavaScript</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
+            <h4 class="wow fadeInUp"><span class="fg-theme">Programmation</span></h4>
+            <div class="skills-container">
+              <div class="skill">
+                <img src="../icons/cpp.png"> C++
               </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">PHP</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              <div class="skill">
+                <img src="../icons/csharp.png"> C#
               </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">HTML + CSS</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100%</div>
+              <div class="skill">
+                <img src="../icons/java.png"> Java
               </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Phyton</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+              <div class="skill">
+                 <img src="../icons/python.png"> Python
               </div>
-            </div>
+              <div class="skill">
+                 <img src="../icons/kotlin.png"> Kotlin
+              </div>
+              <div class="skill">
+                 <img src="../icons/js.png"> JavaScript
+              </div>
           </div>
         </div>
+      </div>
         <div class="col-md-6">
           <div class="px-lg-3">
-            <h4 class="wow fadeInUp">Design Skills</h4>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">UI / UX Design</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">92%</div>
+            <h4 class="wow fadeInUp"><span class="fg-theme">Logiciels</span></h4>
+            <div class="skills-container">
+              <div class="skill">
+                <img src="../icons/unity.png"> Unity
               </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Web Design</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">99%</div>
+              <div class="skill">
+                <img src="../icons/Unreal.png"> Unreal
               </div>
-            </div>
-            <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Logo Design</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">79%</div>
+              <div class="skill">
+                <img src="../icons/godot.png"> Godot
               </div>
-            </div>
+              <div class="skill">
+                <img src="../icons/git.png"> Git
+              </div>
+              <div class="skill">
+                <img src="../icons/arduino.png"> Arduino
+              </div>
+              <div class="skill">
+                 <img src="../icons/blender.png"> Blender
+              </div>
+              <div class="skill">
+                 <img src="../icons/photoshop.png"> Photoshop
+              </div>
+              <div class="skill">
+              <img src="../icons/illustrators.png"> Illustrator
+           </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+    <!-- Formation -->
     <div class="container pt-5">
       <div class="row">
         <div class="col-md-6 wow fadeInRight">
-          <h2 class="fw-normal">Education</h2>
+          <h2 class="fw-normal">Formations Académiques</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2010</div>
+              <div class="title">2020 - 2023</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>École d'ingénieur</h5>
+                <small class="fg-theme">
+                  Institut polytechnique de Paris</small>
+                <p>Télécom SudParis, Évry - Spécialisation jeux vidéos, interactions et
+                  collaborations numériques
+                  </p>
               </div>
             </li>
             <li>
-              <div class="title">2009</div>
+              <div class="title">2018 - 2020</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Classe préparatoire aux grandes écoles</h5>
+                <small class="fg-theme">Lycée Jacques Decour, Paris</small>
+                <p>Maths-Physique-Chimie</p>
               </div>
             </li>
             <li>
-              <div class="title">2008</div>
+              <div class="title">2018</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Bac Scientifique</h5>
+                <small class="fg-theme">Mention Très Bien</small>
+                <p></p>
               </div>
             </li>
           </ul>
         </div>
         <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
-          <h2 class="fw-normal">Experience</h2>
+          <h2 class="fw-normal">Experiences Professionnelles</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2017 - Current</div>
+              <div class="title">Fevrier 2023 - Janvier 2025</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Gameplay Programmer</h5>
+                <small class="fg-theme">InnerspaceVR</small>
+                <p>Unreal - VR</p>
+                <p>One True Path : Développement d’IA via State Machines pour actions et
+                  animations. Gameplay de shooter, combat à l’épée et mécanique de
+                  télékinésie à la première personne. Intégration son et visuel. Amélioration
+                  du moteur existant.
+                  Projet non annoncé : Développement d’un replay and record system.
+                  Développement d’un système de recordable clues : des preuves
+                  manipulables dans une scène passée et une scène future.
+                  </p>
               </div>
             </li>
             <li>
-              <div class="title">2014</div>
+              <div class="title">2022</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Stage Ingénieur pendant 10 semaines</h5>
+                <small class="fg-theme">Institut Polytechnique de Paris</small>
+                <p>Python, Docker, OpenWhisk,
+                  PostgreSQL
+                  Visualisation et analyse de performance d’applications Function-as-aService (Cloud Serverless)
+                  </p>
               </div>
             </li>
             <li>
-              <div class="title">2011</div>
+              <div class="title">2022</div>
               <div class="details">
-                <h5>Specialize of course</h5>
-                <small class="fg-theme">University of Study</small>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h5>Projet Cassiopée de Télécom SudParis </h5>
+                <small class="fg-theme">Institut Mines-Télécom</small>
+                <p>Projet Cassiopée de Télécom SudParis sur 6 mois - C#, Unity
+                  Développement d'un jeu en Réalité Virtuelle avec Unity et TraVRsal
+                  </p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2021</div>
+              <div class="details">
+                <h5>Stage Ingénieur International pendant 6 semaines </h5>
+                <small class="fg-theme">RedStamp</small>
+                <p>Stage Ingénieur International pendant 6 semaines - Python, SQL
+                  Conception d'applications de gestion et d'interface machine
+                  
+                  </p>
               </div>
             </li>
           </ul>
@@ -220,9 +254,8 @@
   <div class="vg-page page-portfolio" id="portfolio">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Portfolio</div>
+        <div class="badge badge-subhead"><span data-lang="Portfolio"></span></div>
       </div>
-      <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
       <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
         <button class="btn btn-theme-outline selected" data-filter="*">All</button>
         <button class="btn btn-theme-outline" data-filter=".pro">Professionel</button>
@@ -273,9 +306,8 @@
   <div class="vg-page page-portfolio" id="other">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Portfolio</div>
+        <div class="badge badge-subhead"><span data-lang="Autres_Travaux"></span></div>
       </div>
-      <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
       <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
         <button class="btn btn-theme-outline selected" data-filter="*">All</button>
         <button class="btn btn-theme-outline" data-filter=".pro">Professionel</button>

@@ -1,0 +1,17 @@
+{
+    "en": {
+      "Bienvenue": "Welcome",
+      "Home" : "Home",
+      "A_Propos" : "About",
+      "Portfolio" : "Portfolio",
+      "Autres_Travaux" : "Other Works"
+    },
+    "fr": {
+      "Bienvenue": "Bienvenue",
+      "Home" : "Home",
+      "A_Propos" : "A Propos",
+      "Portfolio" : "Portfolio",
+      "Autres_Travaux" : "Autres Travaux"
+    }
+  }
+  
