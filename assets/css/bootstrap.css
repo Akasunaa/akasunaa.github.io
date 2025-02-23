@@ -228,30 +228,32 @@ body {
 }
 
 .skills-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 20px; 
-  max-width: 500px;
-  margin: auto; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  min-height: 200x; 
 }
+
 .skill {
   display: flex;
   align-items: center;
-  padding: 10px;
-  background-color: #f4f5f8;
+  gap: 8px;
+  background:  #f4f5f8;
+  padding: 12px 12px;
   border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
-
 .skill:hover {
   transform: scale(1.1); 
 }
-
 
 .skill img {
   width: auto;
   height: 30px;
   margin-right: 10px;
 }
+
+
 
 
 [tabindex="-1"]:focus:not(:focus-visible) {
