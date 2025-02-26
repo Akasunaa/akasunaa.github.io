@@ -4,7 +4,6 @@ const popupImg = document.getElementById("popup-img");
 const popupClose = document.getElementById("popup-close");
 const portfolioImages = document.querySelectorAll(".portfolio-image");
 
-
 // Close
 popupClose.addEventListener("click", () => {
   popup.style.display = "none";

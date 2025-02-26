@@ -21,6 +21,7 @@
  10. Social
  11. Portfolio grid
  12. pop-up
+ 13. video container
  13. Theme Color
  14. Reveal
  15. Page Switching
@@ -1241,6 +1242,30 @@ a:hover, a:active {
     }
   }
   
+
+/*
+ *  13. video container
+ */
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
 /* Theme color style */
 
 /* Theme red */
