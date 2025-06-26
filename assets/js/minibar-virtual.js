@@ -102,9 +102,13 @@ $(document).ready(function () {
     return false;
   });
 
-  var $grid = $('.gridder').isotope({
-    itemSelector: '.grid-item',
-    percentPosition: true
+  var $grid = $('.gridder');
+
+  $grid.imagesLoaded(function () {
+    $grid.isotope({
+      itemSelector: '.grid-item',
+      percentPosition: true
+    });
   });
 
   $grid.imagesLoaded().progress(function () {
